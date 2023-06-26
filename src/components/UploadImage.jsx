@@ -27,7 +27,7 @@ export const UploadImage = ({ image, imagePreview }) => {
     };
 
     function uploadImageToServer() {
-        axios.post('http://127.0.0.1:5000/color_range', {
+        axios.post('http://erfan.bestestofthebest.site/color_range', {
             image,
           })
           .then(function (response) {
